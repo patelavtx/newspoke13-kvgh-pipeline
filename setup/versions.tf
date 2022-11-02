@@ -19,7 +19,7 @@ terraform {
     }
 
   }
-
+/*  EXAMPLE, uncomment to use
 #  backend tfstate for pipeline setup; need to have storage account and container created prior
   backend "azurerm" {
     resource_group_name  = "atulrg-adotest"
@@ -27,4 +27,5 @@ terraform {
     container_name       = "adotestctr"
     key                  = "adokvgh.tfstate"
   }
+*/
 }
