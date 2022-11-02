@@ -10,6 +10,20 @@
 
 *Download this code and set the following ENV and Terraform variables before running Terraform:*
 
+
+Variables that will need updating in 'variables.tf' before running the terraform code:
+```
+
+ado_org_service_url
+
+ ado_github_repo                      - (change to reflect sample cloned repo OR own repo for testing pipeline)
+
+‘ado_pipeline_yaml_path_1’      - (if using the example repo above this shouldn’t need a change)
+```
+
+
+
+Set the Terrafor ENV variables 
 ```
 export TF_VAR_ado_github_repo=“ “
 export TF_VAR_az_tenant=“ “
